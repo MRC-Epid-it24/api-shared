@@ -38,5 +38,5 @@ case class NewRespondentWithPhysicalData(externalId: String, name: Option[String
                                          phone: Option[String], sex: Option[String], birthdate: Option[LocalDate],
                                          weight: Option[Double], weightTarget: Option[String], height: Option[Double])
 
-case class NewRespondentIds(userId: Long, externalId: String, urlAuthToken: String)
+case class NewRespondentIds(userId: Long, surveyId: String, userName: String, urlAuthToken: String)
 
